@@ -2,6 +2,7 @@ defmodule CciDemoPhoenix.Endpoint do
   use Phoenix.Endpoint, otp_app: :cci_demo_phoenix
 
   socket "/socket", CciDemoPhoenix.UserSocket
+  socket "/admin-socket", CciDemoPhoenix.AdminSocket
 
   # Serve at "/" the static files from "priv/static" directory.
   #

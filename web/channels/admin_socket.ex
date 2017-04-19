@@ -1,4 +1,4 @@
-defmodule CciDemoPhoenix.UserSocket do
+defmodule CciDemoPhoenix.AdminSocket do
   use Phoenix.Socket
 
   ## Channels
